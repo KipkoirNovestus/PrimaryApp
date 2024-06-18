@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-//make sure you add the bath of StudentsControllers as below.
+
+// make sure you add the bath of StudentsControllers as below.
 use App\Http\Controllers\StudentController;
 
 Route::get('/user', function (Request $request) {
